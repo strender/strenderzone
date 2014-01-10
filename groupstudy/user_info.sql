@@ -4,9 +4,9 @@ CREATE TABLE `user_info` (
   `user_pw` VARCHAR(40) NOT NULL,
   `join_date` DATETIME NOT NULL,
   `user_name` VARCHAR(20) NOT NULL,
-  `gender` VARCHAR(1),
-  `birthdate` DATE,
-  `email` VARCHAR(40),
+  `gender` VARCHAR(1) NOT NULL,
+  `birthdate` DATE NOT NULL,
+  `email` VARCHAR(40) NOT NULL,
   `phone` VARCHAR(16),
   `avail_city` VARCHAR(32),
   PRIMARY KEY (`user_key`)
