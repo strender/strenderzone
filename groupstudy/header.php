@@ -5,9 +5,7 @@
 	<?php 
 		echo '<title>Groupstudy - '. $page_title. '</title>';
 	 ?>
-	 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-	
 </body>
 </html>

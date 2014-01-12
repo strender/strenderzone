@@ -4,7 +4,7 @@
 	if (isset($_SESSION['user_key'])) {
 		echo '<a href="index.php">Home</a> &#10084; ';
 		echo '<a href="viewprofile.php">View Profile</a> &#10084; ';
-		echo '<a href="editprofile.php">Edit Profile</a> &#10084; ';
+		echo '<a href="edit.php">Edit Profile</a> &#10084; ';
 		echo '<a href="logout.php">Log Out (' . $_SESSION['user_name'] . ')</a>';
 	}
 	else{
